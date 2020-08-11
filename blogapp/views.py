@@ -6,10 +6,12 @@ from .models import Blog
 # Create your views here.
 def home(request):
 
-    return HttpResponse("Hello, Django")
+    # return HttpResponse("Hello, Django")
+    return render(request, "blogapp/home.html")
 
 
-    
+
+
 
 
 
